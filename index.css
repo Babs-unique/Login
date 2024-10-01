@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-weight: 550;
+    margin: 0;
+    margin-top: 200px;
+    margin-left: 200px;
+    background-image: url(IMG_0074.JPG);
+    background-position: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 35px;
+    padding:25%;
+   }
+   form{
+    border-radius: 12px;
+    border-color:black;
+    border-style: groove;
+    padding: 20px;
+    background-position: center; 
+    margin-left: 50px;
+    width: 450px;
+    margin-right: 50px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+
+   }
+  .create-account{
+    text-align: center;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: 1000px;
+  }
+  label{
+    display: block;
+  }
+  input{
+    border-radius: 15px;
+    padding: 12px;
+    padding-right: 130px;
+  }
+  button{
+    justify-content: center;
+    margin-left: 100px;
+    align-items: center;
+    border-radius: 12px;
+    padding-left: 100px;
+    padding-right:100px ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: transparent;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    font-size: 15px;
+    margin-top: 3px;
+  }
+  .sign-up{
+    padding-right: 90px;
+  }
+  button:hover{
+    transition: 0.8s;
+    cursor: pointer;
+    color: blue;
+  }
+  input::placeholder{
+    font-size: 16px;
+    font-weight: -2px;
+  }
